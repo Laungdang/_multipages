@@ -1,0 +1,43 @@
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0%;
+}
+
+.login-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/src/assets/cl.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(10px); 
+    z-index: -1; 
+   
+}
+
+
+
+.login-container{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    background-color: white;
+    box-shadow: 10px 10px 10px black;
+    
+   
+    
+}
